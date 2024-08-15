@@ -1,5 +1,6 @@
 def forca_gravitacional(massa1, massa2, distancia):
     """
+        ESSA É A NOVA DOCUMENTAÇÃO
         Calcula a força gravitacional entre dois corpos.
 
         :param massa1: Massa do primeiro corpo (em kg).
