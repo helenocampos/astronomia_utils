@@ -1,7 +1,7 @@
 def forca_gravitacional(massa1, massa2, distancia):
-
-    """ 
+    """
         Calcula a força gravitacional entre dois corpos.
+
         :param massa1: Massa do primeiro corpo (em kg).
         :type massa1: float
         :param massa2: Massa do segundo corpo (em kg).
@@ -13,9 +13,9 @@ def forca_gravitacional(massa1, massa2, distancia):
         :rtype: float
 
         Notes
-          -----
-          .. math::
-              F = \\frac{G * (massa1 * massa2)}{distancia^2} 
+        -----
+        .. math::
+            F = \\frac{G * (massa1 * massa2)}{distancia^2} 
 
         Examples
         --------
@@ -25,6 +25,7 @@ def forca_gravitacional(massa1, massa2, distancia):
 
 
     """
+    
     G = 6.67430e-11  # Constante gravitacional universal (em m^3/kg/s^2)
     forca = (G * massa1 * massa2) / distancia**2
     return forca
