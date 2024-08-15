@@ -40,26 +40,27 @@
 <dl class="py function">
 <dt class="sig sig-object py" id="astronomia_utils.astronomia_utils.forca_gravitacional">
 <span class="sig-prename descclassname"><span class="pre">astronomia_utils.astronomia_utils.</span></span><span class="sig-name descname"><span class="pre">forca_gravitacional</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">massa1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">massa2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">distancia</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/astronomia_utils/astronomia_utils.html#forca_gravitacional"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#astronomia_utils.astronomia_utils.forca_gravitacional" title="Permalink to this definition">¶</a></dt>
-<dd><p>Calcula a força gravitacional entre dois corpos.
-:param massa1: Massa do primeiro corpo (em kg).
-:type massa1: float
-:param massa2: Massa do segundo corpo (em kg).
-:type massa2: float
-:param distancia: Distância entre os centros dos dois corpos (em metros).
-:type distancia: float</p>
+<dd><p>Calcula a força gravitacional entre dois corpos.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns<span class="colon">:</span></dt>
-<dd class="field-odd"><p>A força gravitacional calculada (em newtons).</p>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>massa1</strong> (<em>float</em>) – Massa do primeiro corpo (em kg).</p></li>
+<li><p><strong>massa2</strong> (<em>float</em>) – Massa do segundo corpo (em kg).</p></li>
+<li><p><strong>distancia</strong> (<em>float</em>) – Distância entre os centros dos dois corpos (em metros).</p></li>
+</ul>
 </dd>
-<dt class="field-even">Return type<span class="colon">:</span></dt>
-<dd class="field-even"><p>float</p>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A força gravitacional calculada (em newtons).</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
 </dd>
 </dl>
-<dl>
-<dt>Notes</dt><dd><div class="math notranslate nohighlight">
+<section id="notes">
+<h3>Notes<a class="headerlink" href="#notes" title="Permalink to this heading">¶</a></h3>
+<div class="math notranslate nohighlight">
 \[F = \frac{G * (massa1 * massa2)}{distancia^2} \]</div>
-</dd>
-</dl>
+</section>
 <section id="examples">
 <h3>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">¶</a></h3>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">astronomia_utils</span> <span class="kn">import</span> <span class="n">forca_gravitacional</span>
